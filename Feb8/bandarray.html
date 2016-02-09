@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	function myFunction() {
+
+		var myFavoriteMusicians = ["black sabbath", "dissection", "uncle acid", "electric wizard", "immortal"];
+
+		var yourBand = prompt("What's your favorite band?");
+		var lowerBand = yourBand.toLowerCase();
+
+		if (myFavoriteMusicians.indexOf(lowerBand) == -1) {
+			alert("That's not one of my favorites :/")
+		}else{
+			alert("Sick me too!")
+		}
+
+	};
+
+	window.onload = myFunction();
+
+	</script>
+
+</body>
+</html>

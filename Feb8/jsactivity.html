@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Activity</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	function myMainFunction() {
+
+		var question = confirm("Do you like pizza?");
+
+		if (question == true) {
+			alert("I made you a pizza!");
+		}
+		else {
+			alert("Too bad, I don't care.");
+		};
+
+		var year = parseInt(prompt("What year were you born in?"));
+
+		if (year < 1988) {
+			alert("You are older than I am!");
+		}
+		else if ( year == 1988) {
+			alert("We are around the same age!")
+		}
+		else {
+			alert("You are younger than I am!")
+		}
+	};
+
+	window.onload = myMainFunction();
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	function myFunction() {
+
+		var animalsIWant = ["lizards", "skunks", "chipmunks"];
+		var guess = prompt("Guess which animals I want?");
+
+		//check if something exists in an array or not
+		if (animalsIWant.indexOf(guess) == -1) {
+ 			alert('Nope :(');
+		}else{
+  			alert('How did you know?!')
+		}
+
+	};
+
+	window.onload = myFunction();
+
+	</script>
+
+</body>
+</html>
